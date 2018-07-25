@@ -89,3 +89,5 @@ const crearMarcador = (place) => {
     containerRuntime.innerHTML = data.Runtime;
     containerImg.innerHTML = `<img src="${data.Poster}">`;
   } 
+
+  
