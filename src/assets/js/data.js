@@ -24,7 +24,7 @@ const initMap = () => {
   // Especificamos la localización, el radio y el tipo de lugares que queremos obtener
   let request = {
     location: myLatlng,
-    radius: 5000,
+    radius: 8000,
     types: ['restaurant', 'cafe']
   };
 
@@ -45,7 +45,8 @@ const crearMarcador = (place) => {
   // Creamos un marcador
   let marker = new google.maps.Marker({
     map: map,
-    position: place.geometry.location
+    position: place.geometry.location,
+     
   });
 
 //Asignamos el evento click del marcador
