@@ -94,11 +94,19 @@
 .filterMenu{
   text-align: center;
 }
-.inputOne{
-  background-color: rgb(255, 255, 255);
-  font-family: 'Roboto', sans-serif;
-  border: 1px solid grey;
+/*Sección Modal*/
+.modalsButtons{
+  text-align: center;
 }
+/*botones*/
+.btn-primary{
+  text-align: center;
+}
+/*boton final*/
+.btnPedido{
+  margin-top: 2%;
+}
+
 
 /*Para Footer*/
 footer{
@@ -108,7 +116,6 @@ footer{
   text-align: center;
   position: fixed;
   left: 0;
-  bottom: 0;
   width: 100%;
   height: 8%;
 }
