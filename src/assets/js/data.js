@@ -12,7 +12,7 @@ const initMap = () => {
 
   let mapOptions = {
     center: myLatlng,
-    zoom: 15,
+    zoom: 12,
     mapTypeId: google.maps.MapTypeId.MAP
   };
 
