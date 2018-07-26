@@ -44,6 +44,18 @@
 .navbar{
   background-color: #1C1E2B;
 }
+/*Pelotas Carrusel*/
+.carousel-indicators li {
+  text-indent: 0;
+  margin: 0 2px;
+  width: 10px;
+  height: 10px;
+  border: none;
+  border-radius: 100%;
+  line-height: 30px;
+  transition: all 0.25s ease;
+  
+}
 /*Texto de las fotos*/
 .photoText{
   font-family: 'Roboto', sans-serif;
@@ -66,9 +78,12 @@
  margin: 0 auto 0 auto; 
 }
 /*Filtrar restaurantes*/
-/*icon circle*/
-.circle{
-  
+/*Boton*/
+.photoBtn{
+  width: 5%;
+}
+.btn-default{
+  width: 5%;
 }
 .iconC{
   width: 10%;
