@@ -34,9 +34,9 @@ body{
 }
 /*Mapita*/
 #mapa{
-  width: 250px; 
-  height: 150px;
-  padding: 2%;
+ width: 18em;
+ height: 18em;
+ margin: 0 auto 0 auto; 
 }
 /*Menu de Filter*/
 .filterMenu{
