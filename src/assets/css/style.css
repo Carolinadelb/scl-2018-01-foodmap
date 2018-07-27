@@ -64,6 +64,7 @@
 }
 .mapSection{
   margin-top: 5%;
+  margin-bottom: 5%;
 }
 /*Título*/
 .title{
@@ -77,22 +78,12 @@
  height: 18em;
  margin: 0 auto 0 auto; 
 }
-/*Filtrar restaurantes*/
-/*Boton*/
-.photoBtn{
-  width: 5%;
-}
-.btn-default{
-  width: 5%;
-}
-.iconC{
-  width: 10%;
-  border-radius: 50%;
-  border: 5px solid rebeccapurple;
-}
-/*Menu de Filter*/
-.filterMenu{
-  text-align: center;
+
+.subtitle{
+  font-family: 'Roboto', sans-serif;
+  text-align: justify;
+  font-size: 14px;
+  margin: 2%;
 }
 /*Sección Modal*/
 .modalsButtons{
@@ -114,10 +105,10 @@ footer{
   color: white;
   font-size: 30px;
   text-align: center;
-  position: fixed;
   left: 0;
+
   width: 100%;
-  height: 8%;
+  height: auto;
 }
 /*iconos de footer*/
 .fa-instagram{
