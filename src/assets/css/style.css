@@ -106,8 +106,6 @@
 .btnPedido{
   margin-top: 2%;
 }
-
-
 /*Para Footer*/
 footer{
   margin-top: 5%;
@@ -124,4 +122,72 @@ footer{
 .fa-instagram{
   margin-left: 4%;
   margin-right: 4%;
+}
+
+/*  MEDIA PARA TABLET*/
+@media (min-width: 600px) {
+  /*Para comienzo de splash*/
+  #startPage{
+    width: 100%;
+    height: 40em;
+  }
+  .centerStart{
+    margin-top: 40%;
+  }
+  .carousel-item {
+    height: 18rem;
+    width:100%;
+  }
+  .photoText{
+    font-size: 20px;
+  }
+  .mapSection{
+    margin-top: 2%;
+  }
+  .title{
+    font-size: 22px;
+  }
+  #mapa{
+    width: 30em;
+    height: 30em;
+  }
+}
+/*  MEDIA LAPTOP*/
+@media (min-width: 1024px){
+  #startPage{
+    width: 100%;
+    height: 40em;
+  }
+  .centerStart{
+    margin-top: 20%;
+  }
+ 
+  .carousel-item {
+    height: 15rem;
+    width:100%;
+  }
+  .photoText{
+    font-size: 30px;
+  }
+  .mapSection{
+    margin-top: 2%;
+  }
+  .title{
+    font-size: 26px;
+  }
+  #mapa{
+    width: 40em;
+    height: 40em;
+  }
+  .subtitle{
+    text-align: center;
+    font-size: 18px;
+    margin: 2%;
+  }
+  .btn-primary{
+    text-align: center;
+    width: 18%;
+    height: 100%;
+    font-size: 20px;
+  }
 }
