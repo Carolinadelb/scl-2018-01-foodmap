@@ -92,6 +92,15 @@
 /*botones*/
 .btn-primary{
   text-align: center;
+  background-color: rgba(201, 37, 25, 0.966);
+  color: white;
+  border:none;
+}
+.btn-primary:hover{
+  text-align: center;
+  background-color: #1C1E2B;
+  color: white;
+  border:none;
 }
 /*boton final*/
 .btnPedido{
